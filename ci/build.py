@@ -34,11 +34,15 @@ def status_badge(proj):
     for workflow in proj.badges:
 
         ci_link = "https://github.com/{}/actions/workflows/{}".format(
-            proj.repo, workflow
+            proj.repo, workflow.workflow
         )
         img_link = "{}/badge.svg".format(ci_link)
 
-        badges.append("[![{}]({})]({})".format(workflow, img_link, ci_link))
+        badges.append(
+            "[![{}]({})]({})".format(
+                workflow.name or workflow.workflow, img_link, ci_link
+            )
+        )
 
     badge = " <br> ".join(badges)
 
