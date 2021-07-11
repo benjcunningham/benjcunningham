@@ -1,6 +1,8 @@
 projects:
 - name: 💬 benjcunningham.github.io
   repo: benjcunningham/benjcunningham.github.io
+- name: 🍪 cookiecutter-profile-dashboard
+  repo: benjcunningham/cookiecutter-profile-dashboard
 - name: 🍪 cookiecutter-sphinx-theme
   repo: benjcunningham/cookiecutter-sphinx-theme
 - name: 🌱 dotfiles
