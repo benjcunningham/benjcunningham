@@ -27,3 +27,5 @@ projects:
   repo: benjcunningham/kompose-example
 - name: 🎨 sphinx-benjcunningham-theme
   repo: benjcunningham/sphinx-benjcunningham-theme
+  badges:
+  - tests.yaml
