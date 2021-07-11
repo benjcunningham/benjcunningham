@@ -15,9 +15,8 @@ projects:
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
   badges:
-  - full.yaml
-  - minimal.yaml
-  - lint.yaml
+  - macos.yaml
+  - ubuntu.yaml
   - documentation.yaml
 - name: 📸 edge-camera
   repo: benjcunningham/edge-camera
