@@ -5,6 +5,8 @@ projects:
   repo: benjcunningham/cookiecutter-profile-dashboard
 - name: 🍪 cookiecutter-sphinx-theme
   repo: benjcunningham/cookiecutter-sphinx-theme
+  badges:
+  - ci.yaml
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
   badges:
