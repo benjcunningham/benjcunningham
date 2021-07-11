@@ -10,7 +10,7 @@ echo "Current branch: ${GIT_CURRENT_BRANCH}"
 
 if [ "${GIT_CURRENT_BRANCH}" = "main" ]; then
 
-    git checkout -t origin/master
+    git checkout -t origin/main
 
     make install
     make build
@@ -22,14 +22,14 @@ if [ "${GIT_CURRENT_BRANCH}" = "main" ]; then
 
     if [ -n "${GIT_FILES_ARE_STAGED}" ]; then
         git commit -m "Autobuild dashboard"
-        git push origin master
+        git push origin main
     else
         echo "Nothing to commit."
     fi
 
 else
 
-    echo "Refusing to build dashboard since current branch is not master."
+    echo "Refusing to build dashboard since current branch is not main."
 
 fi
 

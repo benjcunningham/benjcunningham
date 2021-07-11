@@ -2,7 +2,7 @@ name: Quality
 on:
   push:
     branches:
-    - master
+    - main
 jobs:
   python:
     runs-on: ubuntu-latest
