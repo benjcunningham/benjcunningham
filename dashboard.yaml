@@ -11,7 +11,7 @@ projects:
 - name: 🍪 cookiecutter-sphinx-theme
   repo: benjcunningham/cookiecutter-sphinx-theme
   badges:
-  - ci.yaml
+  - tests.yaml
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
   badges:
