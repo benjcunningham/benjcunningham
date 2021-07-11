@@ -26,13 +26,21 @@ def render_readme(outdir, **kwargs):
 
 def status_badge(proj):
 
-    if not proj.get("ci"):
+    if not proj.get("badges"):
         return None
 
-    img_link = ""
-    ci_link = ""
+    badges = []
 
-    badge = "[![Build Status]({})]({})".format(img_link, ci_link)
+    for workflow in proj.badges:
+
+        ci_link = "https://github.com/{}/actions/workflows/{}".format(
+            proj.repo, workflow
+        )
+        img_link = "{}/badge.svg".format(ci_link)
+
+        badges.append("[![{}]({})]({})".format(workflow, img_link, ci_link))
+
+    badge = " <br> ".join(badges)
 
     return badge
 

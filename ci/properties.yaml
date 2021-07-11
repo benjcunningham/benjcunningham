@@ -5,3 +5,8 @@ projects:
   repo: benjcunningham/cookiecutter-sphinx-theme
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
+  badges:
+  - full.yaml
+  - minimal.yaml
+  - lint.yaml
+  - documentation.yaml
