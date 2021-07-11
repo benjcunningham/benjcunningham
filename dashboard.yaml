@@ -25,6 +25,8 @@ projects:
   repo: benjcunningham/homebrew-tap
 - name: ☸️ kompose-example
   repo: benjcunningham/kompose-example
+  badges:
+  - tests.yaml
 - name: 🎨 sphinx-benjcunningham-theme
   repo: benjcunningham/sphinx-benjcunningham-theme
   badges:
