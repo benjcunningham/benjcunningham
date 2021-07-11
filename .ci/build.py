@@ -109,7 +109,7 @@ def create_table(projects):
 
 def create_tables():
 
-    conf_path = os.path.join(os.path.dirname(ci_dir), "properties.yaml")
+    conf_path = os.path.join(os.path.dirname(ci_dir), "dashboard.yaml")
     conf = OmegaConf.load(conf_path)
 
     tables = {key: create_table(projs) for key, projs in conf.items()}
