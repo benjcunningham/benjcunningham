@@ -5,11 +5,3 @@ projects:
   repo: benjcunningham/cookiecutter-sphinx-theme
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
-- name: 📸 edge-camera
-  repo: benjcunningham/edge-camera
-- name: 🍺 homebrew-tap
-  repo: benjcunningham/homebrew-tap
-- name: ☸️ kompose-example
-  repo: benjcunningham/kompose-example
-- name: 🎨 sphinx-benjcunningham-theme
-  repo: benjcunningham/sphinx-benjcunningham-theme
