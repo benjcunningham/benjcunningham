@@ -8,6 +8,9 @@ build:
 install:
 	pip install -r ci/requirements.txt
 
+deploy:
+	ci/build-and-push.sh
+
 quality:
 	black --check $(check_dirs)
 	isort --check-only $(check_dirs)

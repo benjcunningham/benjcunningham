@@ -13,9 +13,7 @@ jobs:
         python-version: "3.8"
     - name: Configure Git
       run: ci/git-config.sh
-    - name: Install dependencies
-      run: make install
-    - name: Build and push
-      run: ci/build-and-push.sh
+    - name: Build and deploy
+      run: make deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
