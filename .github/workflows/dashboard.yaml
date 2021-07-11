@@ -12,7 +12,7 @@ jobs:
       with:
         python-version: "3.8"
     - name: Configure Git
-      run: ci/git-config.sh
+      run: .ci/git-config.sh
     - name: Build and deploy
       run: make deploy
       env:
