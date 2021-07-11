@@ -10,8 +10,6 @@ echo "Current branch: ${GIT_CURRENT_BRANCH}"
 
 if [ "${GIT_CURRENT_BRANCH}" = "main" ]; then
 
-    git checkout -t origin/main
-
     make install
     make build
 
