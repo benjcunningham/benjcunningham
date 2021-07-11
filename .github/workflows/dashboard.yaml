@@ -1,0 +1,21 @@
+name: Dashboard
+on:
+  push:
+    branches:
+    - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+    - name: Configure Git
+      run: ci/git-config.sh
+    - name: Install dependencies
+      run: make install
+    - name: Build and push
+      run: ci/build-and-push.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
