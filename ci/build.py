@@ -42,7 +42,7 @@ def project_link(proj):
     value = proj.name
 
     if proj.get("repo"):
-        value = "[{}]({})".format(value, proj.repo)
+        value = "[{}](https://github.com/{})".format(value, proj.repo)
 
     return value
 
