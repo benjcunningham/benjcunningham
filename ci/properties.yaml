@@ -6,11 +6,7 @@ projects:
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
   badges:
-  - name: Full
-    workflow: full.yaml
-  - name: Minimal
-    workflow: minimal.yaml
-  - name: Lint
-    workflow: lint.yaml
-  - name: Documentation
-    workflow: documentation.yaml
+  - full.yaml
+  - minimal.yaml
+  - lint.yaml
+  - documentation.yaml
