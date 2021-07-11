@@ -8,6 +8,6 @@ __Python__, natural language processing, and __cursed Unix features__.
   <summary>Active-ish projects</summary>
   <br>
 
-  {{ tables.projects }}
+{{ tables.projects }}
 
 </details>
