@@ -2,8 +2,8 @@ projects:
 - name: 🧘‍♂️ benjcunningham
   repo: benjcunningham/benjcunningham
   badges:
-  - quality.yaml
-  - dashboard.yaml
+  - tests.yaml
+  - deployment.yaml
 - name: 💬 benjcunningham.github.io
   repo: benjcunningham/benjcunningham.github.io
 - name: 🍪 cookiecutter-profile-dashboard

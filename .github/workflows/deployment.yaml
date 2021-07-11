@@ -1,4 +1,4 @@
-name: Dashboard
+name: deployment
 on:
   push:
     branches:
