@@ -24,6 +24,8 @@ projects:
   repo: benjcunningham/edge-camera
 - name: 🍺 homebrew-tap
   repo: benjcunningham/homebrew-tap
+  badges:
+  - tests.yaml
 - name: ☸️ kompose-example
   repo: benjcunningham/kompose-example
   badges:
