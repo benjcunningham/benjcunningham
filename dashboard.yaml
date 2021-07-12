@@ -32,3 +32,4 @@ projects:
   repo: benjcunningham/sphinx-benjcunningham-theme
   badges:
   - tests.yaml
+  - documentation.yaml
