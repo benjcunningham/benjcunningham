@@ -27,6 +27,7 @@ projects:
 - name: 🍺 homebrew-tap
   repo: benjcunningham/homebrew-tap
   badges:
+  - build.yaml
   - tests.yaml
 - name: ☸️ kompose-example
   repo: benjcunningham/kompose-example
