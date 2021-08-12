@@ -1,4 +1,9 @@
 projects:
+- name: 🐱 actions
+  repo: benjcunningham/actions
+  badges:
+  - tests.yaml
+  - documentation.yaml
 - name: 🧘‍♂️ benjcunningham
   repo: benjcunningham/benjcunningham
   badges:
