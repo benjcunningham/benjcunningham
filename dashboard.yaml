@@ -8,7 +8,7 @@ projects:
   repo: benjcunningham/benjcunningham
   badges:
   - tests.yaml
-  - deployment.yaml
+  - build.yaml
 - name: 💬 benjcunningham.github.io
   repo: benjcunningham/benjcunningham.github.io
   badges:
