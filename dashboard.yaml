@@ -1,9 +1,4 @@
 projects:
-- name: 🐱 actions
-  repo: benjcunningham/actions
-  badges:
-  - tests.yaml
-  - documentation.yaml
 - name: 🧘‍♂️ benjcunningham
   repo: benjcunningham/benjcunningham
   badges:
@@ -13,34 +8,9 @@ projects:
   repo: benjcunningham/benjcunningham.github.io
   badges:
   - tests.yaml
-- name: 🍪 cookiecutter-profile-dashboard
-  repo: benjcunningham/cookiecutter-profile-dashboard
-  badges:
-  - tests.yaml
-- name: 🍪 cookiecutter-sphinx-theme
-  repo: benjcunningham/cookiecutter-sphinx-theme
-  badges:
-  - tests.yaml
-  - documentation.yaml
 - name: 🌱 dotfiles
   repo: benjcunningham/dotfiles
   badges:
   - macos.yaml
   - ubuntu.yaml
-  - documentation.yaml
-- name: 📸 edge-camera
-  repo: benjcunningham/edge-camera
-- name: 🍺 homebrew-tap
-  repo: benjcunningham/homebrew-tap
-  badges:
-  - tests.yaml
-  - build.yaml
-- name: ☸️ kompose-example
-  repo: benjcunningham/kompose-example
-  badges:
-  - tests.yaml
-- name: 🎨 sphinx-benjcunningham-theme
-  repo: benjcunningham/sphinx-benjcunningham-theme
-  badges:
-  - tests.yaml
   - documentation.yaml
